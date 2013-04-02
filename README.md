@@ -8,28 +8,48 @@ An Alfred Workflow for controlling Things.app
 
 So far, Do can only do 3 things:
 
-1. Add a new task to the Inbox
-2. Add a new task to "Today"
+1. Add a new task to the Inbox or "Today" lists
+2. List and completed the tasks in the inbox and "Today" lists
 3. Log your completed tasks
+4. Empty the trash
 
-To add a new task to the inbox, the command is
+### The Inbox
 
-    do example task
+To list the tasks to the inbox, the command is
 
-To add a new task to the "Today" list, the command is
+    do inbox
+    
+Alfred will display the items in the inbox, and if you action one of them, it will mark the item as completed.
+
+To add an item to the inbox, just keep typing! For example, the command
+
+    do inbox example task
+    
+will add a task named "example task" to the inbox
+
+### The "Today" List
+
+The "Today" list works just like the "inbox" ones, just substitute "inbox" for "today", like this
+
+    do today
+    
+or this
 
     do today example task
 
-Alternatively, you can use the `do` command and hold the shift key to add the task to "Today"
+### Logging Tasks
 
-To log the completed tasks, the command it
+To log the completed tasks, the command is
 
     do log
 
-That's all for now, folks.
+### Emptying the Trash
 
-***
+To empty the trash, the command is
 
-##Future Plans
+    do empty
 
-Eventually, I really want Do to list all of the tasks in a particular list, even if it is only the Inbox and Today lists, but I'm not sure if I can do that in pure Applescript, and I don't know how to use any other languages to interact with Things.  However, if I figure it out, I'll definitely add more things to Do!
+*** 
+##Contact Information
+
+If you want to get a hold of me, feel free to contact me on [Twitter](https://twitter.com/AlexLaFroscia).  I'd love to get some feedback, positive or negative, as well as suggestions and tips on improving Do!
