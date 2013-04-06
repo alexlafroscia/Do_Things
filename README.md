@@ -10,7 +10,7 @@ So far, Do can only do 3 things:
 
 1. Add a new task to the Inbox or "Today" lists
 2. List and completed the tasks in the inbox and "Today" lists
-3. List your projects and the items in them
+3. **BETA:** List your projects and the items in them
 4. Log your completed tasks
 5. Empty the trash
 
@@ -63,4 +63,4 @@ To empty the trash, the command is
 *** 
 ##Contact Information
 
-If you want to get a hold of me, feel free to contact me on [Twitter](https://twitter.com/AlexLaFroscia).  I'd love to get some feedback, positive or negative, as well as suggestions and tips on improving Do!
+If you want to get a hold of me, feel free to contact me on Twitter: [@alexlafroscia](https://twitter.com/AlexLaFroscia).  I'd love to get some feedback, positive or negative, as well as suggestions and tips on improving Do!
