@@ -10,7 +10,7 @@ So far, Do can only do 3 things:
 
 1. Add a new task to the Inbox or "Today" lists
 2. List and completed the tasks in the inbox and "Today" lists
-3. **BETA:** List your projects and the items in them
+3. List your projects and the items in them
 4. Log your completed tasks
 5. Empty the trash
 
@@ -44,9 +44,7 @@ To access a list of projects, the command is
 
     do projects
     
-When you action one of these options (which will appear in the dropbown), it will run a script that passes the selected project back to another workflow, which will then display the list of its tasks.
-
-As of right now, this command is also ```do projects *project name*``` which might get confusing when using ```do projects``` to display the list. I will be fixing this in the future; consider it a "beta" feature for right now.
+When you action one of those options (which will appear in the dropbown), it will display the list of tasks for that list.
 
 ### Logging Tasks
 
