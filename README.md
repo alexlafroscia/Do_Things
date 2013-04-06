@@ -26,7 +26,9 @@ To add an item to the inbox, just keep typing! For example, the command
 
     do inbox example task
     
-will add a task named "example task" to the inbox
+will add a task named "example task" to the inbox.
+
+Please note that the option to add a new item to the list appears among the items in the list. I will be looking into solving this issue in the very near future.
 
 ### The "Today" List
 
