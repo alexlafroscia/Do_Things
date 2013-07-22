@@ -60,6 +60,12 @@ To empty the trash, the command is
 
     do empty
 
+### Adding a Todo from Mac Mail
+
+Select message in Mac Mail.  Alfred will add a todo to things with the title of the of the selected email.  It will add the tags email and the account the email was received.  It will also add a link back to the message.  The title of the link will be `the sender of the message | the message title`.  The command is 
+
+	do mail
+
 *** 
 ##Contact Information
 
